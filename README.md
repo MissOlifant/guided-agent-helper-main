@@ -44,7 +44,7 @@ npm run dev
 ### Failure Scenarios & Recovery
 **Scenario: API Rate Limiting (429) or Network Failure**
 - **System Behavior**: If the Edge Function returns a 429 or fails to respond, the UI catches this error.
-- **Recovery**: The system implements a "Retry" mechanism (ActionType: `retry`). Instead of crashing or showing a blank screen, the user is presented with a friendly error message and a manual "Retry" button. In some cases, we handle exponential backoff to automatically retry, ensuring the system recovers gracefully without user intervention.
+- **Recovery**: The system implements a "Retry" mechanism (ActionType: `retry`). Instead of crashing or showing a blank screen, the user is presented with a friendly error message and a manual "Retry" button. In some cases, I handle exponential backoff to automatically retry, ensuring the system recovers gracefully without user intervention.
 
 ### Why Constrained UI? (vs. Plain Text Chat)
 If this were implemented as a standard plain-text chat (like ChatGPT):
