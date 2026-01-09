@@ -1,0 +1,4 @@
+project_id = "swaennreauwjoxhvncsp"
+
+[functions.task-agent]
+verify_jwt = false
