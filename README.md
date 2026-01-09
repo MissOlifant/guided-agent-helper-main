@@ -14,7 +14,7 @@ This project is a UI-constrained task assistant agent that guides users through 
 
 ```sh
 # Step 1: Clone the repository
-git clone <YOUR_GIT_URL>
+git clone <https://github.com/MissOlifant/guided-agent-helper-main.git)>
 
 # Step 2: Navigate to the project directory
 cd guided-agent-helper
