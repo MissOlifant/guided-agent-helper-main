@@ -17,7 +17,7 @@ This project is a UI-constrained task assistant agent that guides users through 
 git clone <https://github.com/MissOlifant/guided-agent-helper-main.git)>
 
 # Step 2: Navigate to the project directory
-cd guided-agent-helper
+cd guided-agent-helper (using command prompt in terminal)
 
 # Step 3: Install the necessary dependencies
 npm install
